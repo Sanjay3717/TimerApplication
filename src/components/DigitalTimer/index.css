@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+
+.timer-image-container {
+}
+
+.timing-display {
+  padding: 30px;
+  border-radius: 100px;
+}
+
+.icon-style {
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+}
+.btn-style {
+  background: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+.start {
+  display: flex;
+  margin-right: 20px;
+}
+
+.time-operation-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.select-time-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.add-less {
+  font-size: 30px;
+}
+.set-timer-text {
+  text-align: center;
+  color: #1e293b;
+}
